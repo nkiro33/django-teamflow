@@ -1,0 +1,65 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Django local database
+db.sqlite3
+*.sqlite3
+
+# Django media/uploads
+media/
+
+# Static files collected for production
+staticfiles/
+static/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local settings
+local_settings.py
+settings_local.py
+
+# Logs
+*.log
+logs/
+
+# Test and coverage files
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# Type checking / linting caches
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS / Windows files
+.DS_Store
+Thumbs.db
+
+# Build/package files
+build/
+dist/
+*.egg-info/
+
+core/management
+core/migrations
